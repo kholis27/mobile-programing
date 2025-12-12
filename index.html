@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Sederhana JS & Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Aplikasi Data Sederhana (CRUD)</h1>
+        <p>Data disimpan di Local Storage Browser.</p>
+
+        <div class="input-form">
+            <input type="hidden" id="dataId">
+            <input type="text" id="dataInput" placeholder="Masukkan nama/data..." required>
+            <button id="saveButton" class="btn primary">Tambah Data (Create)</button>
+        </div>
+
+        <hr>
+
+        <h2>Daftar Data (Read)</h2>
+        <ul id="dataList" class="data-list">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
